@@ -77,7 +77,7 @@ hr {
 }
 
 .nft-banner::after {
-    content: url(images/icon-view.svg);
+    content: url(../images/icon-view.svg);
     background-color: var(--cyan);
     border-radius: 10px;
     width: 100%;
