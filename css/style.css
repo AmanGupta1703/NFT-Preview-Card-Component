@@ -146,6 +146,8 @@ hr {
 }
 
 .creator-img {
+    border: 2px solid var(--white);
+    border-radius: 100%;
     width: 18%;
 }
 
