@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/AmanGupta1703/NFT-Preview-Card-Component)
+- Live Site URL: [Add live site URL here](https://amangupta1703.github.io/NFT-Preview-Card-Component/)
 
 ## My process
 
@@ -147,5 +147,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [NFT Preview Card](https://amangupta1703.github.io/NFT-Preview-Card-Component/)
 - Frontend Mentor - [@AmanGupta1703](https://www.frontendmentor.io/profile/AmanGupta1703)
