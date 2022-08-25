@@ -68,28 +68,27 @@ hr {
 .nft-banner {
     cursor: pointer;
     position: relative;
+    background-color: hsl(178, 100%, 50%);
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .equilibrium-img{
-    border-radius: 10px;
-    cursor: pointer;
     width: 100%;
+    display: block;
+    transition: opacity 250ms ease-in-out;
 }
 
 .nft-banner::after {
     content: url(../images/icon-view.svg);
-    background-color: var(--cyan);
-    border-radius: 10px;
-    width: 100%;
-    height: 100%;
     position: absolute;
-    top: 0; 
-    left: 0;
-    opacity: 0;
+    z-index: 1;
+    inset: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* transition: opacity 0.5 ease; */
+    opacity: 0;
+    transition: opacity 0.5 ease-in-out;
 }
 
 /* NFT Text Content */
@@ -167,6 +166,10 @@ hr {
     color: var(--cyan);
 }
 
-.nft-banner::after:hover {
-    opacity: 0.5;
+.nft-banner:hover .equilibrium-img {
+ opacity: 0.55;
+}
+
+.nft-banner:hover::after {
+    opacity: 1;
 }
