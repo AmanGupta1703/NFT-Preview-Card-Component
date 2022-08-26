@@ -72,7 +72,6 @@ hr {
   overflow: hidden;
   border-radius: 10px;
 }
-
 .equilibrium-img {
   width: 100%;
   display: block;
@@ -100,6 +99,11 @@ hr {
   color: var(--white);
   cursor: pointer;
   transition: 0.4s ease;
+}
+
+.big-heading a {
+  color: var(--white);
+  text-decoration: none;
 }
 
 .nft-description {
@@ -144,8 +148,10 @@ hr {
   margin: 1.2rem 0 0;
 }
 
-.creator-img {
-  width: 18%;
+.image-avatar {
+  width: 12%;
+  border: 1px solid var(--white);
+  border-radius: 100%;
 }
 
 .created-by {
@@ -155,12 +161,13 @@ hr {
 .creator-name {
   color: var(--white);
   cursor: pointer;
+  text-decoration: none;
   transition: 0.4s ease;
 }
 
 /* Hover Status */
 
-.big-heading:hover,
+.big-heading a:hover,
 .creator-name:hover {
   color: var(--cyan);
 }
